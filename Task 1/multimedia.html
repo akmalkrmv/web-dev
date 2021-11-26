@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multimedia</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="content-sectioning.html">Content sectioning</a></li>
+        <li><a href="forms.html">Forms</a></li>
+        <li><a href="multimedia.html">Multimedia</a></li>
+        <li><a href="tables.html">Tables</a></li>
+        <li><a href="text.html">Text</a></li>
+      </ul>
+    </nav>
+
+    <h2>Multimedia elements</h2>
+
+    <h3>Img examples:</h3>
+
+    <img src="./assets/multimedia/cat.jpg" alt="cat" height="300" />
+    <img src="./assets/multimedia/cat.gif" alt="cat" height="300" />
+
+    <h3>Audio examples:</h3>
+    <audio controls src="./assets/multimedia/t-rex-roar.mp3">
+      Your browser does not support the
+      <code>audio</code> element.
+    </audio>
+
+    <h3>Video examples:</h3>
+    <video controls height="300">
+      <source src="./assets/multimedia/flower.webm" type="video/webm" />
+      <source src="./assets/multimedia/flower.mp4" type="video/mp4" />
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+
+    <video controls src="./assets/multimedia/friday.mp4" height="300">
+      <track
+        default
+        kind="captions"
+        srclang="en"
+        src="./assets/multimedia/friday.vtt"
+      />
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+  </body>
+</html>

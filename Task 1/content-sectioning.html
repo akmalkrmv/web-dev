@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content sectioning</title>
+
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="content-sectioning.html">Content sectioning</a></li>
+        <li><a href="forms.html">Forms</a></li>
+        <li><a href="multimedia.html">Multimedia</a></li>
+        <li><a href="tables.html">Tables</a></li>
+        <li><a href="text.html">Text</a></li>
+      </ul>
+    </nav>
+
+    <h2>Content sectioning</h2>
+
+    <h3>Template:</h3>
+    <div class="grid-container">
+      <section class="header">Header</section>
+      <section class="menu">Menu</section>
+      <section class="main">Main</section>
+      <section class="right">Right</section>
+      <section class="footer">Footer</section>
+    </div>
+
+    <h3>Example from template:</h3>
+    <div class="grid-container">
+      <section class="header"><header>Content sectioning</header></section>
+      <section class="menu">
+        <nav>
+          <ul>
+            <li><a href="content-sectioning.html">Content sectioning</a></li>
+            <li><a href="forms.html">Forms</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="tables.html">Tables</a></li>
+            <li><a href="text.html">Text</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="main">
+        <h2>Gecko facts</h2>
+        <main>
+          <p>
+            Geckos are a group of usually small, usually nocturnal lizards. They
+            are found on every continent except Australia.
+          </p>
+
+          <p>
+            Many species of gecko have adhesive toe pads which enable them to
+            climb walls and even windows.
+          </p>
+        </main>
+      </section>
+      <section class="right">
+        <article class="forecast">
+          <h1>Weather forecast for Seattle</h1>
+          <article class="day-forecast">
+            <h2>03 March 2018</h2>
+            <p>Rain.</p>
+          </article>
+          <article class="day-forecast">
+            <h2>04 March 2018</h2>
+            <p>Periods of rain.</p>
+          </article>
+          <article class="day-forecast">
+            <h2>05 March 2018</h2>
+            <p>Heavy rain.</p>
+          </article>
+        </article>
+      </section>
+      <section class="footer">
+        <footer>
+          <p>© 2021 Web Dev</p>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
